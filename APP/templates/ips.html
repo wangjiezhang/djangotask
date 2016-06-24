@@ -1,0 +1,18 @@
+<table class="table table-striped" id="mytable">
+    <thead>
+        <tr>
+            <th>IP</th>
+            <th>位置</th>
+            <th>日期</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for x in ips %}
+        <tr>
+            <td>{{x.ip}}</td>
+            <td>{{x.addr}}</td>
+            <td>{{x.date}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

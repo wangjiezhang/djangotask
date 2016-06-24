@@ -1,0 +1,331 @@
+body {
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    background: #a8c8ca url("../images/bg.png");
+    color: #444444;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 940px;
+    position: relative;
+    background: #ece9d6 url("../images/noise.png");
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.22);
+}
+
+#sum {
+    display: none;
+}
+
+#social-bar-holder {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: url("../images/transparent-dark.png");
+    border-bottom: 1px solid #f4f3ea;
+    padding-top: 14px;
+    padding-bottom: 9px;
+}
+
+#social-bar {
+    display: block;
+    clear: left;
+    float: right;
+    position: relative;
+    right: 50%;
+    text-align: center;
+}
+
+#social-bar li {
+    display: block;
+    float: left;
+    left: 50%;
+    position: relative;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+#social-bar li a {
+    position: absolute;
+    height: 64px;
+    width: 32px;
+    top: 0;
+    left: 0px;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+}
+
+#social-bar li a:hover {
+    top: -32px;
+}
+
+#social-bar .dribbble a {
+    background-image: url('../images/social/dribbble.png');
+}
+
+#social-bar .facebook a {
+    background-image: url('../images/social/facebook.png');
+}
+
+#social-bar .flickr a {
+    background-image: url('../images/social/flickr.png');
+}
+
+#social-bar .forrst a {
+    background-image: url('../images/social/forrst.png');
+}
+
+#social-bar .github a {
+    background-image: url('../images/social/github.png');
+}
+
+#social-bar .googleplus a {
+    background-image: url('../images/social/googleplus.png');
+}
+
+#social-bar .lastfm a {
+    background-image: url('../images/social/lastfm.png');
+}
+
+#social-bar .linkedin a {
+    background-image: url('../images/social/linkedin.png');
+}
+
+#social-bar .rss a {
+    background-image: url('../images/social/rss.png');
+}
+
+#social-bar .twitter a {
+    background-image: url('../images/social/twitter.png');
+}
+
+#social-bar .vimeo a {
+    background-image: url('../images/social/vimeo.png');
+}
+
+#social-bar .youtube a {
+    background-image: url('../images/social/youtube.png');
+}
+
+.cf:after,
+.cf:before {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}
+
+header #logo {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header #logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+table#mytable {
+    width: 800px;
+    margin: 0 auto;
+    background: url("../images/nav-top.png") repeat-x top left;
+}
+
+#mytable.table>thead>tr>th {
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #E37655;
+}
+
+table#mytable td {
+    border: solid 1px #E37655;
+}
+
+#form-top {
+    margin-top: 20px;
+    width: 940px;
+}
+
+form#myform {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#twitter-holder {
+    position: relative;
+}
+
+#twitter-holder .ribbon {
+    background: #e37655;
+    min-height: 92px;
+    text-align: center;
+}
+
+#twitter-holder .ribbon-left {
+    position: absolute;
+    width: 56px;
+    height: 92px;
+    background: url("../images/ribbon-left.png") no-repeat;
+    top: -18px;
+    left: -56px;
+}
+
+#twitter-holder .ribbon-right {
+    position: absolute;
+    width: 56px;
+    height: 92px;
+    background: url("../images/ribbon-right.png") no-repeat;
+    top: -18px;
+    right: -56px;
+}
+
+
+/* WIDGET COLS ------------------------------------------------------------*/
+
+.widget-cols {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 14px;
+    color: #ece9d6;
+    background-color: #3e3e3e;
+    background-image: url("../images/widgets-bg.png");
+    display: none;
+}
+
+.widget-cols a {
+    color: #fff;
+    border-bottom: 1px dotted #aaa;
+}
+
+.widget-cols a:hover {
+    color: #fdd600;
+}
+
+.widget-cols h1,
+.widget-cols h2,
+.widget-cols h3,
+.widget-cols h4,
+.widget-cols h5,
+.widget-cols h6 {
+    font-family: mensch;
+    color: #ece9d6;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px solid #605f5b;
+    padding-bottom: 7px;
+}
+
+.widget-cols > li {
+    width: 220px;
+    float: left;
+    margin-left: 20px;
+}
+
+.widget-cols > li.fourth-col {
+    margin-right: 0px;
+}
+
+.multiplebgs .widget-cols {
+    background-image: url("../images/widgets-bg.png"), url("../images/widgets-degree.png");
+    background-repeat: repeat, repeat-x;
+}
+
+
+/* BOTTOM ------------------------------------------------------------*/
+
+footer {
+    clear: both;
+}
+
+#bottom {
+    background: #4d4d4d;
+    position: relative;
+    min-height: 20px;
+    border-top: 1px solid #656565;
+}
+
+#bottom #widget-trigger-holder {
+    position: relative;
+    left: 50%;
+    text-align: center;
+    float: left;
+    margin-top: -15px;
+}
+
+#bottom #widget-trigger-holder #widget-trigger {
+    display: block;
+    position: relative;
+    float: left;
+    right: 50%;
+    width: 35px;
+    height: 36px;
+    background: url("../images/widget-trigger.png") no-repeat 0px 0px;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+#bottom #widget-trigger-holder #widget-trigger.tab-closed {
+    background-position: 0px -36px;
+}
+
+#bottom #content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+#bottom #content a {
+    color: #fdd600;
+}
+
+#bottom #content a:hover {
+    text-decoration: underline;
+}
+
+#tag {
+    margin-bottom: 350px;
+}
+
+#search {
+    width: 281px;
+    height: 266px;
+    background: url("../images/note_bg_20.png") no-repeat;
+    float: left;
+    padding: 40px;
+    margin-left: 90px;
+}
+
+#local {
+    width: 281px;
+    height: 266px;
+    background: url("../images/note_bg_15.png") no-repeat;
+    float: left;
+    padding: 40px;
+    margin-left: 200px;
+}
